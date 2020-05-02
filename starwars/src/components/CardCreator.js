@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import CardInfo from './components/CardInfo';
+import CardInfo from './CardInfo';
 // const Body = styled.div`
 //     display: flex;
 //     justify-content: center;

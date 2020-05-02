@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
-import Cardcreator from "./components/CardCreator";
+import Cardcreator from "./CardCreator";
 
 
 
@@ -8,7 +8,8 @@ const CardInfo = () => {
     const [data,setData] = useState([]);
 
     useEffect(() => {
-        axios.get("https://swapi.co/api/people/")
+        axios
+        .get("https://swapi.py4e.com/api/people/")
             .then(response => {
                 console.log(response)
                 setData(response.data.results)
