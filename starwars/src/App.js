@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CardInfo from "./CardInfo";
+import CardInfo from "./components/CardInfo";
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out

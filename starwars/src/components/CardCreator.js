@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from "styled-components";
 import CardInfo from './CardInfo';
-// const Body = styled.div`
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
+const Body = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-// `;
+`;
 
-// const Card = styled.div`
-//     border: solid;
-//     width: 50%;
-//     margin: 5%;
-//     background-color: white;
-//     border-radius: 10px;
-// `;
+const Card = styled.div`
+    border: solid;
+    width: 50%;
+    margin: 5%;
+    background-color: white;
+    border-radius: 10px;
+`;
 
 
 const Cardcreator = props => {
